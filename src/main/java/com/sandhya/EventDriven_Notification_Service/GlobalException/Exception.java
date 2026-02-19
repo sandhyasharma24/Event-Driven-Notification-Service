@@ -1,4 +1,4 @@
-package com.nithin.EventDriven_Notification_Service.GlobalException;
+package com.sandhya.EventDriven_Notification_Service.GlobalException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

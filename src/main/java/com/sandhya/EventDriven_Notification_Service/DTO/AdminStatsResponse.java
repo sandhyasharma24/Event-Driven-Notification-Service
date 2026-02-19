@@ -1,4 +1,4 @@
-package com.nithin.EventDriven_Notification_Service.DTO;
+package com.sandhya.EventDriven_Notification_Service.DTO;
 public class AdminStatsResponse {
 	
 	private long total ;

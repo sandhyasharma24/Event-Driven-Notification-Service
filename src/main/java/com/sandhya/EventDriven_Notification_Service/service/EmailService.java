@@ -1,4 +1,4 @@
-package com.nithin.EventDriven_Notification_Service.service;
+package com.sandhya.EventDriven_Notification_Service.service;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;

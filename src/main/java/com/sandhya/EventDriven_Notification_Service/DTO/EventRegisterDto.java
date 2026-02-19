@@ -1,5 +1,5 @@
-package com.nithin.EventDriven_Notification_Service.DTO;
-import com.nithin.EventDriven_Notification_Service.Enums.EventType;
+package com.sandhya.EventDriven_Notification_Service.DTO;
+import com.sandhya.EventDriven_Notification_Service.Enums.EventType;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.EnumType;

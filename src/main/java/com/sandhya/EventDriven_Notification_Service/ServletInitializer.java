@@ -1,4 +1,4 @@
-package com.nithin.EventDriven_Notification_Service;
+package com.sandhya.EventDriven_Notification_Service;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

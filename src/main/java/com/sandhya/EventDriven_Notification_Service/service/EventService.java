@@ -1,4 +1,4 @@
-package com.nithin.EventDriven_Notification_Service.service;
+package com.sandhya.EventDriven_Notification_Service.service;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -8,12 +8,12 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.nithin.EventDriven_Notification_Service.DTO.AdminStatsResponse;
-import com.nithin.EventDriven_Notification_Service.DTO.EventRegisterDto;
-import com.nithin.EventDriven_Notification_Service.DTO.EventResponseDto;
-import com.nithin.EventDriven_Notification_Service.Enums.EventStatus;
-import com.nithin.EventDriven_Notification_Service.model.Event;
-import com.nithin.EventDriven_Notification_Service.repository.EventRepository;
+import com.sandhya.EventDriven_Notification_Service.DTO.AdminStatsResponse;
+import com.sandhya.EventDriven_Notification_Service.DTO.EventRegisterDto;
+import com.sandhya.EventDriven_Notification_Service.DTO.EventResponseDto;
+import com.sandhya.EventDriven_Notification_Service.Enums.EventStatus;
+import com.sandhya.EventDriven_Notification_Service.model.Event;
+import com.sandhya.EventDriven_Notification_Service.repository.EventRepository;
 
 @Service
 public class EventService {

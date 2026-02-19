@@ -1,4 +1,4 @@
-package com.nithin.EventDriven_Notification_Service.Controller.Controller;
+package com.sandhya.EventDriven_Notification_Service.Controller.Controller;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nithin.EventDriven_Notification_Service.DTO.EventRegisterDto;
-import com.nithin.EventDriven_Notification_Service.DTO.EventResponseDto;
-import com.nithin.EventDriven_Notification_Service.service.EventService;
+import com.sandhya.EventDriven_Notification_Service.DTO.EventRegisterDto;
+import com.sandhya.EventDriven_Notification_Service.DTO.EventResponseDto;
+import com.sandhya.EventDriven_Notification_Service.service.EventService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -19,7 +19,6 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/event")
-@Tag(name="Register Event", description ="This api registers the Event" )
 public class EventController {
 	
 	private EventService eventService;
@@ -40,6 +39,6 @@ public class EventController {
 	public ResponseEntity<EventResponseDto> saveEvent(@RequestHeader("IdempotencyKey") String idempotencyKey, @RequestBody EventRegisterDto eventRegister){
 	      EventResponseDto response =  eventService.createEvent(eventRegister,idempotencyKey);
 	      return new ResponseEntity<EventResponseDto>(response,HttpStatus.CREATED);
-	}
+}
 
 }

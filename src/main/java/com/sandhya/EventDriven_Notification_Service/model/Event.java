@@ -1,10 +1,10 @@
-package com.nithin.EventDriven_Notification_Service.model;
+package com.sandhya.EventDriven_Notification_Service.model;
 import java.time.LocalDateTime;
 
 import org.antlr.v4.runtime.misc.NotNull;
 
-import com.nithin.EventDriven_Notification_Service.Enums.EventStatus;
-import com.nithin.EventDriven_Notification_Service.Enums.EventType;
+import com.sandhya.EventDriven_Notification_Service.Enums.EventStatus;
+import com.sandhya.EventDriven_Notification_Service.Enums.EventType;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

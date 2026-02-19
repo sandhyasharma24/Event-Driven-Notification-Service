@@ -1,4 +1,4 @@
-package com.nithin.EventDriven_Notification_Service.Enums;
+package com.sandhya.EventDriven_Notification_Service.Enums;
 public enum EventType {
 	
 	PAYMENT_FAILED,

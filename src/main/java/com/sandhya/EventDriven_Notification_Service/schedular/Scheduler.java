@@ -1,4 +1,4 @@
-package com.nithin.EventDriven_Notification_Service.schedular;
+package com.sandhya.EventDriven_Notification_Service.schedular;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import com.nithin.EventDriven_Notification_Service.model.Event;
-import com.nithin.EventDriven_Notification_Service.service.EventService;
+import com.sandhya.EventDriven_Notification_Service.model.Event;
+import com.sandhya.EventDriven_Notification_Service.service.EventService;
 
 @Component
 public class Scheduler {
